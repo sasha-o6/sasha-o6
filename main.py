@@ -4,10 +4,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
+    return f"Osipov Oleksander TI-81"
+
+@app.route('/first')
+def hello():
     a = None
     b = ' 86 '
     c = 12
-    return f"{a},{b},{c}"
+    return f"{a} {b} {c}"
 
 if __name__ == '__main__':
     app.run('0.0.0.0')
