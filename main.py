@@ -7,7 +7,7 @@ def hello():
     return f"Osipov Oleksander TI-81"
 
 @app.route('/first')
-def hello():
+def first():
     a = None
     b = ' 86 '
     c = 12
